@@ -1,0 +1,157 @@
+phani.m@fotune.com
+password:
+DX9E?2522s
+
+administrator@pega.com
+password : Install
+
+How to create a application and operatot id.
+
+Insurance
+Test@s1
+
+Records-Organization-OperatorID
+
+Go to the records tab
+
+create organization and organizqation unit
+create 
+
+create operator id and update the organization , division and organiztion unit details in work lab.
+
+How to create a property?
+Data Model - Property
+
+Customer Details
+
+First Name
+Last Name
+Address
+Mobile
+Email ID
+Gender
+City
+State
+Country
+Pincode
+
+Create a CaseType
+
+Add the stages for your application
+add steps for the stages
+and configure view for the steps
+
+create properties for the customer basic details
+and click on dropdown in the section while you have 
+configureed view of a step
+in the back end section is created
+drag and drop properties in the section.
+
+after creating the section save.
+and save case type.
+ on top of the application click on the launch web interface selct the cast worker.
+
+
+day 3:- 
+
+while creating data type backend class rules, properties report definitions, data pages will be created.
+by using the pages in pega we are able to get the details in the work class
+
+Inheritance :-
+----------------
+
+Direct and in direct
+@baseclass
+work                                  - data
+Claims                  Customer details   policy details
+
+
+organization-application-work-claims
+
+organization-application-data-customer details
+
+organization-application-data-policy details
+
+fetching data from data table
+
+by using activity (obj and RDB methods)
+                report definitio
+                data pages
+
+
+technical-activities
+
+Page-New(First will be created in the clipboard pages)
+Page-Copy
+Obj-Browse ( it will fetch the total records from the data table)
+obj-open(used for fetching particular records)
+obj-save
+property-set
+
+saving Mechanism
+data type rules always
+
+http://localhost:8080/prweb/PRServlet
+
+pages
+
+by using .csv(comma limitted time)
+
+
+C:\Program Files (x86)\OpenSpan\
+OpenSpan Studio for 
+Microsoft Visual Studio 2015\BrowserExtensions
+
+
+Rule resolution:- 
+-----------------
+
+Rule resolution is the search algorithm used by the Pega Platform
+to find the most appropriate rule instance to apply in a situation. 
+Rule resolution applies to most, but not all, classes derived from the Rule- base class.
+
+4 pages under the clipboard are :
+--------------------------------
+
+1.User Pages
+2.Data Pages
+3.Linked Pages
+4.System Pages
+
+RDB Methods (relational database):
+-----------
+RDB open- Use this method to retrieve a single row (record) 
+of data from an external relational database.
+
+RDB list - Use this method to retrieve rows from
+an external relational database and place the results as embedded pages
+
+RDB delete - Use this method to delete a row or rows from an external 
+relational database using SQL. 
+
+RDB save - Use this method to save the contents of a clipboard page
+into a row of a relational database.
+
+RDB SQL rules - use to connect SQl.
+
+Data Pages:
+----------
+
+
+
+
+inheretance
+activities how to grab data
+clipboard pages
+rules
+case types
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+AddressID - JobAddress
+country
+state*
+city*
+zip
+departmentSelect
+
+
+
+$partnerLocationID  = $this->getTrimmedInput('partnerLocationID', $_POST);
+$contactID          = $this->getTrimmedInput('contactID', $_POST);
+$contactID2         = $this->getTrimmedInput('contactID2', $_POST);
+      
+$custCompID         = $this->getTrimmedInput('custCompID', $_POST);
+$WorkLocationID     = $this->getTrimmedInput('WorkLocationID', $_POST);
+$clientContact1     = $this->getTrimmedInput('clientContact1', $_POST);
+$clientContact2     = $this->getTrimmedInput('clientContact2', $_POST);
+
+
+
+company_id
+contact_id
+contact_id2
+client_location_id
+
+endclient_company_id
+endclient_location_id
+endclient_contact_id
+endclient_contact_id2
+
+
+
+ALTER TABLE `joborder` 
+ADD COLUMN contact_id2 INT(11) AFTER company_id, 
+ADD COLUMN client_location_id INT(11) AFTER contact_id2, 
+ADD COLUMN endclient_company_id INT(11) AFTER client_location_id, 
+ADD COLUMN endclient_location_id INT(11) AFTER endclient_company_id, 
+ADD COLUMN endclient_contact_id INT(11) AFTER endclient_location_id, 
+ADD COLUMN endclient_contact_id2 INT(11) AFTER endclient_contact_id 
+
+
+
+
+
+$endclient_contactRS
+$partnerLocationRS
+$WorkLocationRS
+
+
+
+                contact_id2         = %s,
+
+                client_location_id     = %s,
+
+                endclient_company_id   = %s,
+
+                endclient_location_id  = %s,
+
+                endclient_contact_id   = %s,
+
+                endclient_contact_id2  = %s,  
+
+
+
+
+
+
+ALTER TABLE `company_work_location` 
+ADD COLUMN is_active varchar(10) DEFAULT '1'
+

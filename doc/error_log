@@ -1,0 +1,4 @@
+[28-Apr-2019 09:24:57 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pj7rh3gq4hl8/public_html/test.staidlogic.com/opencats/doc/CandidateFieldsEncrypt.php on line 18
+[28-Apr-2019 09:24:57 UTC] PHP Fatal error:  Database connection failed: Access denied for user 'root'@'localhost' (using password: NO) in /home/pj7rh3gq4hl8/public_html/test.staidlogic.com/opencats/doc/CandidateFieldsEncrypt.php on line 20
+[28-Apr-2019 09:26:17 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'ats'@'localhost' to database 'stdl_ats_test' in /home/pj7rh3gq4hl8/public_html/test.staidlogic.com/opencats/doc/CandidateFieldsEncrypt.php on line 18
+[28-Apr-2019 09:26:17 UTC] PHP Fatal error:  Database connection failed: Access denied for user 'ats'@'localhost' to database 'stdl_ats_test' in /home/pj7rh3gq4hl8/public_html/test.staidlogic.com/opencats/doc/CandidateFieldsEncrypt.php on line 20

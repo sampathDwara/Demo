@@ -1,0 +1,9 @@
+$_POST['cvType']
+$_POST['rel_exp'] +$_POST['rel_exp_months']
+$_POST['key_skills']
+$_POST['cdomain1']
+$_POST['maincategory']
+$_POST['roles']
+$_POST['uqua'] (education)
+$_POST['esal'] (ExpSalery)+ $_POST['esalType'] (hr/year)
+$_POST['refRecruiter']
